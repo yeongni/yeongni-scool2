@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>설문조사 양식</title>
+    <style>
+        <!--인라인 요소는 전체 영역을 감싸주는 게 아니라 딱 지만 감싸줘가지구 
+            블랙레벨처럼 style을 직접적으로 쓸 수 없다 그래서 head내용에다가 직접 써줘야해-->
+        button {
+            display: block; 
+            margin: 0 auto;
+            font-size: 40px
+        }
+    </style>
+</head>
+<body style= margin:0 auto">
+        <div style="background-color: #edbd39; padding:30px; text-align: center;">
+            <h1>설문조사 양식</h1>
+            <p>모든 항목에 빠짐없이 체크해줘영</p><br>
+        </div>
+        <div style="width: 800px; padding: 30px; margin: 0 auto">
+            <fieldset>
+                <fieldset>
+                    <legend>개인정보</legend>
+                    <label>
+                        이름
+                        <input type="text" placeholder="이름만 적어라잉">
+                    </label><br>
+                    <p></p>
+                    <label>
+                        이메일주소
+                        <input type="password" placeholder="password">
+                    </label>
+                </fieldset>
+            </fieldset>
+            <p>
+            <fieldset>
+                <fieldset>
+                    <legend>설문</legend>
+                    <p>
+                    <p>연령대가 어떻게 되십니까?</p>
+                    <input type="checkbox">10대 
+                    <input type="checkbox">20대<br>
+                    <p>학원을 선택할 때 가장 중요하게 생각하는 것은 무엇입니깡 모두 고르시옹</p>
+                    <input type="checkbox">위치
+                </fieldset>
+            </fieldset>
+            <p>
+            <fieldset>
+                <fieldset>
+                <legend>기타의견</legend> 
+                    <textarea placeholder="너의 의견을 적어줘"></textarea>
+                </fieldset>
+            </fieldset><br>
+            <button>제출</button>
+        </div>
+    </body>
+</html>
