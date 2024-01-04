@@ -1,0 +1,57 @@
+body {
+    background-color: #e2e0e0;
+    font-family: 'Noto Sans Korean', Montserrat, Poppins;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 450px;
+    height: 650px;
+    margin: 30px auto;
+    border: 1px solid rgb(228, 227, 227);
+    box-shadow: 3px 3px 5px rgb(198, 197, 197);
+    border-radius: 15px;
+    background-color: rgb(234, 233, 233);
+}
+
+.sign {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.all {
+    width: 350px;
+    height: 600px;
+    margin: 30px auto;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.umber {
+    width: 25%;
+    display: inline-block;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.dash {
+    width: 20px;
+    margin-left: 3px;
+    display: table-cell;
+}
+
+.p1 {
+    text-align: center;
+    color: gray;
+}
